@@ -1,0 +1,57 @@
+.borda1{
+    border: 1px solid #f00;    
+}
+.borda2{
+    border: 1px solid #f0f;
+}
+.cont-table{
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-top:100px;
+}
+.table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+  
+}
+.cont-ico{
+    border: 1px solid steelblue;
+    background: transparent;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 110px;
+    cursor: pointer;
+    transition: 0.8s;    
+}
+.bosch{background-image: url(./_imgs/logo-cinza/logo-bosch.png);}
+.bosch:hover{background-image: url(./_imgs/logo-cinza/logo-bosch1.png);}
+
+.cofap{background-image: url(./_imgs/logo-cinza/logo-cofap.png);}
+.cofap:hover{background-image: url(./_imgs/logo-cinza/logo-cofap1.png);}
+
+.dayco{background-image: url(./_imgs/logo-cinza/logo-dayco.png);}
+.dayco:hover{background-image: url(./_imgs/logo-cinza/logo-dayco1.png);}    
+
+.magneti{background-image: url(./_imgs/logo-cinza/logo-magneti-marelli.png);}
+.magneti:hover{background-image: url(./_imgs/logo-cinza/logo-magneti-marelli1.png);}
+
+.monroe{background-image: url(./_imgs/logo-cinza/logo-monroe.png);}
+.monroe:hover{background-image: url(./_imgs/logo-cinza/logo-monroe1.png);}
+
+.nakata{background-image: url(./_imgs/logo-cinza/logo-nakata.png);}
+.nakata:hover{background-image: url(./_imgs/logo-cinza/logo-nakata1.png);}
+
+.petrobras{background-image: url(./_imgs/logo-cinza/logo-petrobras.png);}
+.petrobras:hover{background-image: url(./_imgs/logo-cinza/logo-petrobras1.png);}
+
+.sachs{background-image: url(./_imgs/logo-cinza/logo-sachs.png);}
+.sachs:hover{background-image: url(./_imgs/logo-cinza/logo-sachs1.png);}
+
+.trw{background-image: url(./_imgs/logo-cinza/logo-trw.png);}
+.trw:hover{background-image: url(./_imgs/logo-cinza/logo-trw1.png);}
+
+.varga{background-image: url(./_imgs/logo-cinza/logo-varga.png);}
+.varga:hover{background-image: url(./_imgs/logo-cinza/logo-varga1.png);}
+

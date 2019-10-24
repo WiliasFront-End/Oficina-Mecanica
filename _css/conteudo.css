@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+.container-conteudo{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.cont-conteudos{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    padding: 8px;
+
+}
+.img-logo-oficina{
+    display: flex;
+    width: 50%;
+    height: 100%;
+   
+
+
+}
+.img-logo-oficina img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.container-corpo{
+    display: flex;
+
+}
+.container-esquerdo{
+    width: 50%;
+    height: 600px;
+    border-top: 0.5px solid #888;
+    border-right: 0.5px solid #888;
+
+  
+
+}
+.container-direito{
+    width: 50%;
+    height: 600px;
+    border-top: 0.5px solid #888;
+    display: flex;
+    flex-direction: column;
+}
+.cont-apresentacao{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.cont-img-apresenta{
+    width: 24%;
+    height: 150px;
+}
+.cont-img-apresenta img{
+    display: flex;
+    width: 100%;
+}
+.cont-txt-apresenta{
+    width: 76%;
+    height: 100%;
+    padding: 4px;
+}
+.cont-txt-apresenta h2{
+    border-bottom: 0.5px solid rgba(162,162,163,0.5);
+    /*border-style: solid;
+    border-color: rgba(0,0,0,0.5);*/
+    text-align: center;
+    font-family:  'Jomolhari', serif;
+    color: #5a5d5d;
+    padding: 0px;
+    margin-bottom: 4px;
+    
+}
+.cont-txt-insti{
+    display: flex;
+    
+
+}
+.txt-insti{
+    display: flex;
+       
+}
+.txt-insti p{
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #5a5d5d;
+    padding-top: 6px;
+    
+}
+.cont-txt-apresenta p{
+    border: 0.5px;
+    border-color: rgba(162,162,163,0.5);
+    border-style:solid;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgba(0,0,0,0.7);
+}
+#txt-missao{
+    font-weight: bold;
+}
+#txt-visao{
+    font-weight: bold;
+}
+#txt-valor{
+    font-weight: bold;
+}
+#missao{
+    color: #c0504d;
+
+}
+#visao{
+    color: #9bbb59;
+}
+#valor{
+    color: #8064a2;
+}
+.container-mapa{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+   
+}
+.container-mapa iframe{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  
+}
+.txt-mapa{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    
+}
+.txt-mapa h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
+    color: #5a5d5d;
+}
+
+/* TABELAS*/
+.cont-table{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+  
+}
+.cont-ico{
+    background: transparent;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 110px;
+    cursor: pointer;
+    transition: 0.8s;    
+}
+.bosch{background-image: url(../_imgs/logo-cinza/logo-bosch.png);}
+.bosch:hover{background-image: url(../_imgs/logo-cinza/logo-bosch1.png);}
+
+.cofap{background-image: url(../_imgs/logo-cinza/logo-cofap.png);}
+.cofap:hover{background-image: url(../_imgs/logo-cinza/logo-cofap1.png);}
+
+.dayco{background-image: url(../_imgs/logo-cinza/logo-dayco.png);}
+.dayco:hover{background-image: url(../_imgs/logo-cinza/logo-dayco1.png);}    
+
+.magneti{background-image: url(../_imgs/logo-cinza/logo-magneti-marelli.png);}
+.magneti:hover{background-image: url(../_imgs/logo-cinza/logo-magneti-marelli1.png);}
+
+.monroe{background-image: url(../_imgs/logo-cinza/logo-monroe.png);}
+.monroe:hover{background-image: url(../_imgs/logo-cinza/logo-monroe1.png);}
+
+.nakata{background-image: url(../_imgs/logo-cinza/logo-nakata.png);}
+.nakata:hover{background-image: url(../_imgs/logo-cinza/logo-nakata1.png);}
+
+.petrobras{background-image: url(../_imgs/logo-cinza/logo-petrobras.png);}
+.petrobras:hover{background-image: url(../_imgs/logo-cinza/logo-petrobras1.png);}
+
+.sachs{background-image: url(../_imgs/logo-cinza/logo-sachs.png);}
+.sachs:hover{background-image: url(../_imgs/logo-cinza/logo-sachs1.png);}
+
+.trw{background-image: url(../_imgs/logo-cinza/logo-trw.png);}
+.trw:hover{background-image: url(../_imgs/logo-cinza/logo-trw1.png);}
+
+.varga{background-image: url(../_imgs/logo-cinza/logo-varga.png);}
+.varga:hover{background-image: url(../_imgs/logo-cinza/logo-varga1.png);}
+
